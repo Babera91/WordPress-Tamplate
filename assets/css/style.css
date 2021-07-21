@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Raleway';
+}
+/* NAVIGATION*/
+nav{
+    height: 2em;
+    color:rgb(98, 98, 98);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* home Button */
+nav ul li:first-of-type{
+    padding-right: 60%;
+}
+/*content button*/
+nav ul li:last-of-type{
+    padding-right: 2%;
+}
+/* CONENT GENERAL*/
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") center/cover no-repeat;
+    height: 100em;
+    text-align: center;
+    color: white;
+}
+/* HEADLINE*/
+section h1{
+    font-size: 5em;
+    padding-bottom: 3%;
+}
+/* BUTTON GENERAL */
+div{
+    color:white;
+    padding-top: 3%;
+}
+/* BUTTON*/
+a{
+    color:white;
+    text-decoration: none;
+    margin-left:1%;
+    padding: 1% 4%;
+}
+a:last-child{
+    background-color:  #745cf9;
+}
+a:first-child{
+    border:solid;
+}
+/* HOVER*/
+a:last-child:hover{
+    background-color: #5234f9 ;
+}
